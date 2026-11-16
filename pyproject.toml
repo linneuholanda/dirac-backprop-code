@@ -1,0 +1,25 @@
+[project]
+name = "dirac-backprop-code"
+version = "1.0.0"
+description = "Numerical test for \"Backpropagation as Dirac-bracket dynamics of dissipative training\""
+readme = "README.md"
+license = "MIT"
+license-files = ["LICENSE"]
+requires-python = ">=3.12"
+dependencies = [
+    "jax[cpu]>=0.12.0.1",
+    "matplotlib>=3.11.2",
+    "numpy>=2.5.4",
+    "scipy>=1.18.1",
+]
+
+[project.scripts]
+run-dirac = "gbl_experiments.dirac_backprop:main"
+run-seeds = "gbl_experiments.seeds:main"
+
+[build-system]
+requires = ["uv_build>=0.12.11,<0.13.0"]
+build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "gbl_experiments"
