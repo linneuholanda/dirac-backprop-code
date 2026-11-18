@@ -2,7 +2,7 @@
 
 Code for the numerical test (Sec. IV) of
 
-> N. L. Holanda and I. E. Cunha, *Backpropagation as Dirac-bracket dynamics of dissipative training* (2026).
+> N. L. Holanda and I. E. Cunha, *Backpropagation as Dirac-bracket dynamics of dissipative training*, Zenodo preprint (2026), [doi:10.5281/zenodo.24352737](https://doi.org/10.5281/zenodo.24352737).
 
 The paper describes gradient-based optimizers as dissipative mechanical systems, with the Bateman–Galley doubling of the degrees of freedom. It shows that backpropagation is Dirac evolution in this description. The layers of a feed-forward network are second-class constraints, and the Hamiltonian contains only the cost of the network output. This code tests that construction numerically, to high precision, on a small network.
 
