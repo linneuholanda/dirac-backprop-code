@@ -1,0 +1,14 @@
+{
+  "title": "dirac-backprop-code: numerical test for \"Backpropagation as Dirac-bracket dynamics of dissipative training\"",
+  "upload_type": "software",
+  "description": "Code for the numerical test (Sec. IV) of N. L. Holanda and I. E. Cunha, Backpropagation as Dirac-bracket dynamics of dissipative training. It checks, at random points of the constraint surface, that the Dirac bracket of the layer constraints reproduces backpropagation, and trains a network by integrating the Dirac flow.",
+  "creators": [
+    {"name": "Holanda, Nicolaus Linneu", "affiliation": "Independent researcher, São Paulo, Brazil", "orcid": "0000-0002-8484-4635"},
+    {"name": "Cunha, Ivan Eugenio", "affiliation": "Universidade do Estado de Santa Catarina"}
+  ],
+  "license": "MIT",
+  "keywords": ["backpropagation", "Dirac bracket", "constrained Hamiltonian systems", "Bateman–Galley formalism", "automatic differentiation", "JAX"],
+  "related_identifiers": [
+    {"identifier": "10.5281/zenodo.24352737", "relation": "isSupplementTo", "resource_type": "publication-preprint", "scheme": "doi"}
+  ]
+}
